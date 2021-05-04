@@ -37,13 +37,12 @@ public class Superviser : MonoBehaviour
         newobj.Init();
     }
 }
-
+[System.Serializable]
 public class SuperviserData
 {
     //俗に言うグローバル関数
-
+    public bool Active = true;
 }
-
 /*
 接触処理で毎回迷ってるのでどうにかする
 片方が片方のInterFaseを読み込む方式

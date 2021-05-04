@@ -17,4 +17,5 @@ public abstract class SupervisedObject : MonoBehaviour
     public virtual void Init() { }
     //Update。
     public virtual void SupervisedUpdate(SuperviserData data) { }
+
 }
